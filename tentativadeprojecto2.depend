@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1642458068 source:c:\users\guilherme\desktop\ipl\tentativadeprojecto2\funcoes_aux.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funcoes_aux.h"
+
+1642436603 c:\users\guilherme\desktop\ipl\tentativadeprojecto2\funcoes_aux.h
+
+1642527034 source:c:\users\guilherme\desktop\ipl\tentativadeprojecto2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"funcoes_aux.h"
+	"membros.h"
+	"testes.h"
+	"confinamento.h"
+
+1642524051 c:\users\guilherme\desktop\ipl\tentativadeprojecto2\membros.h
+	"funcoes_aux.h"
+
+1642527031 source:c:\users\guilherme\desktop\ipl\tentativadeprojecto2\testes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funcoes_aux.h"
+	"testes.h"
+	"confinamento.h"
+
+1642527033 source:c:\users\guilherme\desktop\ipl\tentativadeprojecto2\membros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funcoes_aux.h"
+	"membros.h"
+	"confinamento.h"
+
+1642524217 c:\users\guilherme\desktop\ipl\tentativadeprojecto2\testes.h
+	"membros.h"
+
+1642454662 source:c:\users\guilherme\desktop\ipl\tentativadeprojecto2\confinamento.c
+	"membros.h"
+	"confinamento.h"
+
+1642458068 c:\users\guilherme\desktop\ipl\tentativadeprojecto2\confinamento.h
+	"funcoes_aux.h"
+	"membros.h"
+
