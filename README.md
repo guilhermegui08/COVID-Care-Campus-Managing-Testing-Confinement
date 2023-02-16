@@ -5,6 +5,8 @@ Programa para gestão de testes de diagnóstico da covid-19 e confinamentos de u
 
 --Projeto não portável para sistemas Unix-like.
 
+NOTA: Fazer rebuild ao projeto para correr devidamente.
+
 ##############################################################################
 
 #OBJETIVO DO PROJETO
