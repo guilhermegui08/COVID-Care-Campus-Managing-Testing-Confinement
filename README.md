@@ -4,8 +4,10 @@ Programa para gestão de testes de diagnóstico da covid-19 e confinamentos de u
 --Projeto desenvolvido no Code::Blocks IDE recorrendo à API Windows.
 --Projeto não portável para sistemas Unix-like.
 
-######################################################################################################
+##############################################################################
+
 #OBJETIVO DO PROJETO
+
 Pretende-se desenvolver um programa que auxilie na gestão dos testes de diagnóstico
 da covid-19 e dos confinamentos dos membros da comunidade académica afetos a um
 determinado curso. Considera-se que essa comunidade terá no máximo 200 elementos.
@@ -24,8 +26,10 @@ do teste seja inconclusivo o membro da comunidade deverá ficar em quarentena.
 Os membros da comunidade académica poderão também ficar em isolamento devido a
 contactos de proximidade com um infetado. Estes casos são registados pelo utilizador.
 
-######################################################################################################
+##############################################################################
+
 #FUNCIONALIDADES
+
 • Apresentar no menu principal a seguinte informação: quantidade de membros
 da comunidade, quantidade de testes agendados, quantidade de testes
 realizados e quantidade de membros vacinados.
