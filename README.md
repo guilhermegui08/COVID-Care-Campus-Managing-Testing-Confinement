@@ -1,77 +1,41 @@
-# Projeto_programacao1
-Programa para gestão de testes de diagnóstico da covid-19 e confinamentos de uma comunidade académica.
+# COVID-Care-Campus-Managing-Testing-Confinement
+Program for managing COVID-19 diagnostic tests and confinement of an academic community.
 
---Projeto desenvolvido no Code::Blocks IDE recorrendo à API Windows.
+Project developed in the Code::Blocks IDE using the Windows API.
 
---Projeto não portável para sistemas Unix-like.
+Project not portable to Unix-like systems.
 
-NOTA: Fazer rebuild ao projeto para correr devidamente.
+NOTE: Rebuild the project to run properly.
 
-##############################################################################
+## PROJECT OBJECTIVE
+The aim is to develop a program to assist in managing COVID-19 diagnostic tests and confinement of members of the academic community affiliated with a particular course. It is assumed that this community will have a maximum of 200 members.
 
-#OBJETIVO DO PROJETO
+The program should record information regarding the members of the academic community, scheduled diagnostic tests, and their respective results. Tests can only be scheduled for members of the academic community who are registered in the program. When scheduling, the type of test (PCR or antigen) to be performed should be identified.
+After conducting a previously scheduled test, the respective result should be recorded. If the result is inconclusive, a PCR test should be scheduled. The same should occur for positive results obtained from antigen tests.
+A member of the academic community should be immediately placed in prophylactic isolation when obtaining a positive test result. If the test result is inconclusive, the member of the community should be placed in quarantine.
+Members of the academic community may also be placed in isolation due to close contact with an infected individual. These cases are recorded by the user.
 
-Pretende-se desenvolver um programa que auxilie na gestão dos testes de diagnóstico
-da covid-19 e dos confinamentos dos membros da comunidade académica afetos a um
-determinado curso. Considera-se que essa comunidade terá no máximo 200 elementos.
+## FUNCTIONALITIES
+• Display the following information in the main menu: number of community members, number of scheduled tests, number of tests conducted, and number of vaccinated members.
 
-O programa deverá registar a informação referente aos membros da comunidade
-académica, aos testes de diagnóstico agendados e aos respetivos resultados.
-Os testes só poderão ser agendados para membros da comunidade académica que se
-encontrem registados no programa. Ao efetuar o agendamento deverá ser identificado o
-tipo de teste (PCR ou antigénio) a realizar.
-Após a realização de um teste previamente agendado, o respetivo resultado deverá ser
-registado. Caso o resultado seja inconclusivo deverá ser agendado um teste do tipo PCR.
-O mesmo deverá suceder para os resultados positivos obtidos em testes do tipo antigénio.
-Um membro da comunidade académica deverá ser colocado imediatamente em
-isolamento profilático quando obtiver um resultado positivo num teste. Caso o resultado
-do teste seja inconclusivo o membro da comunidade deverá ficar em quarentena.
-Os membros da comunidade académica poderão também ficar em isolamento devido a
-contactos de proximidade com um infetado. Estes casos são registados pelo utilizador.
+• Insert and list information regarding the members of the community. For each member, the number of tests conducted and information (type of test, date) of scheduled tests should also be listed.
 
-##############################################################################
+• Record/update the vaccination status of a community member.
 
-#FUNCIONALIDADES
+• Record/update the confinement status of a community member.
 
-• Apresentar no menu principal a seguinte informação: quantidade de membros
-da comunidade, quantidade de testes agendados, quantidade de testes
-realizados e quantidade de membros vacinados.
+• Schedule a test, considering that a maximum of 15 PCR tests can be conducted in a single day.
 
-• Inserir e listar a informação referente aos membros da comunidade.
-Deverão também ser listadas, para cada membro, a quantidade de testes
-realizados e a informação (tipo de teste, data) dos testes agendados.
+• List data for all tests. For each test conducted, the result, time of testing, and duration should also be shown.
 
-• Registar/atualizar o estado de vacinação de um membro da comunidade.
+• Change the scheduled date for a test.
 
-• Registar/atualizar o estado de confinamento de um membro da comunidade.
+• Record the result of a previously scheduled test. All test information, along with the name and vaccination status of the community member who took the test, should be added to a log in a text file.
 
-• Agendar a realização de um teste, considerando que num determinado dia se
-poderão efetuar, no máximo, 15 testes do tipo PCR.
+• Store (and read) information regarding the members of the academic community and scheduled tests in binary file(s).
 
-• Listar os dados de todos os testes. Para cada teste realizado deverão
-também ser mostrados o resultado, a hora de realização e a duração.
+• Display information for a selected test, including the following information about the respective member of the academic community: name, member type, and number of positive tests.
 
-• Alterar a data agendada para a realização de um teste.
+• Present the following statistical data: number of each type of member of the academic community, average duration of each conducted test, percentage of inconclusive tests, member(s) of the academic community with the fewest tests conducted, and most recent test(s) conducted.
 
-• Registar o resultado de um teste previamente agendado.
-Toda a informação do teste, acrescida do nome e do estado da vacinação do
-membro da comunidade que o realizou, deverá ser acrescentada num log, em
-ficheiro de texto.
-
-• Armazenar (e ler) em ficheiro(s) binário(s) a informação referente aos
-membros da comunidade académica e aos testes agendados.
-
-• Apresentar a informação de um teste (selecionado pelo utilizador),
-incluindo a seguinte informação do respetivo membro da comunidade
-académica: nome, tipo de membro e quantidade de testes positivos.
-
-• Apresentar os seguintes dados estatísticos: quantidade de cada tipo de
-membro da comunidade académica, tempo médio de duração de cada teste
-realizado, percentagem de testes inconclusivos, membro(s) da comunidade
-académica com a menor quantidade de testes realizados, e teste(s)
-realizado(s) mais recente.
-
-• Apresentar uma listagem dos casos de confinamento ocorridos contendo a
-seguinte informação: membro da comunidade académica, tipo de confinamento
-(quarentena ou isolamento profilático), data de confinamento e tempo de
-duração (em dias).
+• Present a list of confinement cases containing the following information: member of the academic community, type of confinement (quarantine or prophylactic isolation), date of confinement, and duration (in days).
